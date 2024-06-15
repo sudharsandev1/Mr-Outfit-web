@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr.Outfit -Online shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1>Mr.OutFit</h1>
+        <div class="navbar-link">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#new-arrival">New Arrival</a></li>
+                <li><a href="#most-wanted">Most Wanted</a></li>
+                <li><a href="collection.html">Collections</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+    <!-- side navbar -->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-link">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#new-arrival">New Arrival</a></li>
+                <li><a href="#most-wanted">Most Wanted</a></li>
+                <li><a href="collection.html">Collections</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <!-- section -->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="products" id="products">
+            <div class="products-box">
+
+                <img src="images/img6.jpeg" alt="" width="250px" height="200px">
+                <p>Summer Shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="images/img3.webp" alt="" width="250px" height="200px">
+                <p>Pant</p>
+            </div>
+            <div class="products-box">
+                <img src="images/img1.webp" alt="" width="250px" height="200px">
+                <p>Blue shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="images/img7.webp" alt="" width="250px" height="200px">
+                <p>shoe</p>
+            </div>
+        </div>
+        <div class="products" id="products">
+            <div class="products-box">
+
+                <img src="images/watch1.jpg" alt="" width="250px" height="200px">
+                <p>sliverwatch</p>
+            </div>
+            <div class="products-box">
+                <img src="images/chain.jpg" alt="" width="250px" height="200px">
+                <p>chain</p>
+            </div>
+            <div class="products-box">
+                <img src="images/white .jpg" alt="" width="250px" height="200px">
+                <p>whiteshirt</p>
+            </div>
+            <div class="products-box">
+                <img src="images/black shirt.jpg" alt="" width="250px" height="200px">
+                <p>Black shirt</p>
+            </div>
+        </div>
+        <div class="products" id="products">
+            <div class="products-box">
+
+                <img src="images/watch2.jpg" alt="" width="250px" height="200px">
+                <p>watch</p>
+            </div>
+            <div class="products-box">
+                <img src="images/shoe.jpg" alt="" width="250px" height="200px">
+                <p>sheakers</p>
+            </div>
+            <div class="products-box">
+                <img src="images/shirt.jpg" alt="" width="250px" height="200px">
+                <p>summer shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="images/summer.jpg" alt="" width="250px" height="200px">
+                <p>shirt</p>
+            </div>
+        </div>
+    </div>
+    <!-- news -->
+    <div class="news">
+        <h2>Join Our News Letter</h2>
+        <p>Signup for our email newsletter to get exclusive discounts and updates and more..</p>
+        <div>
+            <input type="text" class="search">
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-address">
+                <h2 class="heading-text">Mr.OutFit</h2>
+                <address>
+                    Mon -Sun :8.00am -10.00pm <br>
+                    Shop Address:Check Post,<br>
+                    Aranthangi,Pudukkottai-614616 <br>
+                </address>
+                <p><i class="fa-solid fa-phone"></i> 9876543210</p>
+                <p><i class="fa-solid fa-envelope">
+                    </i> mroutfit@gmail.com
+                </p>
+            </div>
+            <div class="footer-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li>Terms of use</li>
+                    <li>Privacy policy</li>
+                    <li>Refund policy</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-icon">
+                <h2>Social Media</h2>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="collection.js"></script>
+</body>
+
+</html>

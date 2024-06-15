@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr.Outfit -Online shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1>Mr.OutFit</h1>
+        <div class="navbar-link">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#new-arrival">New Arrival</a></li>
+                <li><a href="#most-wanted">Most Wanted</a></li>
+                <li><a href="collection.html">Collections</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+    <!-- side navbar -->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-link">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#new-arrival">New Arrival</a></li>
+                <li><a href="#most-wanted">Most Wanted</a></li>
+                <li><a href="collection.html">Collections</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <!-- contact -->
+    <div class="contact-section">
+        <h2>Feel Free to connect with us</h2>
+        <form class="contact-form">
+            <input type="text" id="name" placeholder="Enter Full  Name " required><br>
+            <input type="number" name="phone" id="phone" placeholder=" Enter Your M-Phone" required><br>
+            <input type="email" name="email" id="email" placeholder="Enter Your E-mail" required><br>
+            <button type="submit">Send</button>
+        </form>
+        <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62833.69326994107!2d78.96453386252898!3d10.172052675101588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b006c989a22c701%3A0xaf50b6bd7bfb093b!2sAranthangi%2C%20Tamil%20Nadu%20614616!5e0!3m2!1sen!2sin!4v1718315640375!5m2!1sen!2sin" width="75%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+  
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-address">
+                <h2 class="heading-text">Mr.OutFit</h2>
+                <address>
+                    Mon -Sun :8.00am -10.00pm <br>
+                    Shop Address:Check Post,<br>
+                    Aranthangi,Pudukkottai-614616 <br>
+                </address>
+                <p><i class="fa-solid fa-phone"></i> 9876543210</p>
+                <p><i class="fa-solid fa-envelope">
+                    </i> mroutfit@gmail.com
+                </p>
+            </div>
+            <div class="footer-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li>Terms of use</li>
+                    <li>Privacy policy</li>
+                    <li>Refund policy</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-icon">
+                <h2>Social Media</h2>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
