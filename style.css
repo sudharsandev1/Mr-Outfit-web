@@ -4,7 +4,7 @@
     margin: 0;
 }
 body{
-    font-family: cursive;
+   font-family: "Roboto", sans-serif;
     scroll-behavior: smooth;
 }
 .top-navbar{
